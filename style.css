@@ -14,6 +14,7 @@ body{
     background-image: url(img/go.png);
     background-repeat: no-repeat;
     margin-top: 5px;
+    margin-bottom: 100px;
 }
 .contat{
     width: 50%;
@@ -31,4 +32,30 @@ body{
     align-items: center;
     text-align: right;
     padding-right: 10%;
+}
+/*-------------hero close------*/
+/*-------------reverhero start------*/
+.reversHero{
+    display: flex;
+    background-image: url(img/go.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.reversIMg{
+    width: 50%;
+    padding-left: 10%;
+    text-align: center;
+}
+.reversContant{
+    width: 30%;
+    padding-right: 10%;
+    align-items: center;
+}
+.reversContant a{
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 6px 25px;
+    border-radius: 3px;
+    color: white;
 }
